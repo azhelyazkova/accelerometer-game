@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.ani.accgame.game.Game</OriginalElement>
+  <nodes>
+    <node x="135.0" y="657.0">com.ani.accgame.LevelSelectionActivity.LevelButtonListener</node>
+    <node x="200.0" y="314.0">com.ani.accgame.GameActivity</node>
+    <node x="0.0" y="328.0">com.ani.accgame.GameActivity.GameView</node>
+    <node x="632.0" y="0.0">com.ani.accgame.game.Game.CollisionListener</node>
+    <node x="426.0" y="75.0">com.ani.accgame.game.Game</node>
+    <node x="492.0" y="411.0">com.ani.accgame.game.Game.Listener</node>
+    <node x="62.0" y="821.0">com.ani.accgame.LevelSelectionActivity</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.ani.accgame.GameActivity" target="com.ani.accgame.game.Game">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="com.ani.accgame.game.Game" target="com.ani.accgame.game.Game.CollisionListener">
+      <point x="-2.8421709430404007E-14" y="-12.88470508005517" />
+      <point x="-15.858098560067845" y="0.0" />
+    </edge>
+    <edge source="com.ani.accgame.LevelSelectionActivity" target="com.ani.accgame.LevelSelectionActivity.LevelButtonListener">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="com.ani.accgame.GameActivity" target="com.ani.accgame.GameActivity.GameView">
+      <point x="0.0" y="16.427380881249178" />
+      <point x="0.0" y="16.427380881249185" />
+    </edge>
+    <edge source="com.ani.accgame.game.Game.CollisionListener" target="com.ani.accgame.game.Game">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="com.ani.accgame.LevelSelectionActivity.LevelButtonListener" target="com.ani.accgame.GameActivity">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="com.ani.accgame.GameActivity.GameView" target="com.ani.accgame.GameActivity">
+      <point x="0.0" y="-5.475793627083052" />
+      <point x="0.0" y="-5.47579362708305" />
+    </edge>
+    <edge source="com.ani.accgame.LevelSelectionActivity.LevelButtonListener" target="com.ani.accgame.LevelSelectionActivity">
+      <point x="10.605678581704431" y="0.0" />
+      <point x="10.605678581704439" y="0.0" />
+    </edge>
+    <edge source="com.ani.accgame.game.Game" target="com.ani.accgame.game.Game.Listener">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="com.ani.accgame.game.Game.Listener" target="com.ani.accgame.game.Game">
+      <point x="-10.23069594641143" y="-1.4210854715202004E-14" />
+      <point x="-10.23069594641143" y="0.0" />
+    </edge>
+    <edge source="com.ani.accgame.GameActivity" target="com.ani.accgame.game.Game.Listener">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="182.0" y="312.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

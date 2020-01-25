@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.ani.accgame.game</OriginalElement>
+  <nodes>
+    <node x="369.0" y="28.0">com.ani.accgame.game.GameObject</node>
+    <node x="692.0" y="220.0">com.ani.accgame.game.Monster</node>
+    <node x="753.0" y="535.0">com.ani.accgame.game.Monster.Direction</node>
+    <node x="471.0" y="218.0">com.ani.accgame.game.Wall</node>
+    <node x="270.0" y="215.0">com.ani.accgame.game.Goal</node>
+    <node x="0.0" y="212.0">com.ani.accgame.game.Player</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.ani.accgame.game.Monster" target="com.ani.accgame.game.Monster.Direction">
+      <point x="10.612416831403692" y="0.0" />
+      <point x="10.612416831403692" y="-5.6843418860808015E-14" />
+    </edge>
+    <edge source="com.ani.accgame.game.Goal" target="com.ani.accgame.game.GameObject">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="com.ani.accgame.game.Player" target="com.ani.accgame.game.GameObject">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="com.ani.accgame.game.Monster.Direction" target="com.ani.accgame.game.Monster">
+      <point x="-10.612416831403678" y="5.6843418860808015E-14" />
+      <point x="-10.61241683140367" y="0.0" />
+    </edge>
+    <edge source="com.ani.accgame.game.Wall" target="com.ani.accgame.game.GameObject">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="com.ani.accgame.game.Monster" target="com.ani.accgame.game.GameObject">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="583.0" y="268.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

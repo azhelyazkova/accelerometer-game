@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">My Accelerometer Game</string>
+    <string name="level1Button">1</string>
+    <string name="level2Button">2</string>
+    <string name="level3Button">3</string>
+    <string name="level4Button">4</string>
+    <string name="levelsLabel">Levels</string>
+    <string name="successTitle">Congratulations!</string>
+    <string name="successMessage">You Win!!</string>
+    <string name="successConfirmation">OK</string>
+
+</resources>
